@@ -32,7 +32,7 @@ service.get({uri:`/`, f: (request, response) => {
               made with ❤️
             </h2>
             <h2 class="subtitle">
-              proudly build by GitLab CI
+              proudly hosted by Clever Cloud 💡☁️
             </h2>            
           </div>
         </section>
