@@ -5,9 +5,14 @@ let externalPort = process.env.EXTERNAL_PORT || port;
 
 let service = new Service({})
 
-service.get({uri:`/hi`, f: (request, response) => {
+service.get({uri:`/api/hi`, f: (request, response) => {
   response.sendJson({message: "Hi 👋 🌍", from:"pico"})
 }})
+
+service.post({uri:`/api/hi`, f: (request, response) => {
+  response.sendJson({message: "👋", from:"pico"})
+}})
+
 
 service.get({uri:`/`, f: (request, response) => {
   response.sendHtml(`
@@ -44,14 +49,6 @@ service.get({uri:`/`, f: (request, response) => {
     </html>  
   `)
 
-}})
-
-service.get({uri:`/api/hi`, f: (request, response) => {
-  response.sendJson({message: "Hi 👋 🌍", from:"pico"})
-}})
-
-service.post({uri:`/api/hi`, f: (request, response) => {
-  response.sendJson({message: "👋", from:"pico"})
 }})
 
 service.start({port: port}, res => {
