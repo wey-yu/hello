@@ -35,7 +35,7 @@ service.get({uri:`/`, f: (request, response) => {
         <section class="container">
           <div>
             <h1 class="title">
-              👋 Hello 🌍 World
+              👋 Hello 🌍 Devoxx
             </h1>
             <h2 class="subtitle">
               made with ❤️
