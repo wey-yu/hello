@@ -9,6 +9,10 @@ service.get({uri:`/api/hi`, f: (request, response) => {
   response.sendJson({message: "Hi 👋 🌍", from:"pico"})
 }})
 
+service.get({uri:`/api/hello`, f: (request, response) => {
+  response.sendJson({message: "Hello 👋 🌍", from:"pico"})
+}})
+
 service.post({uri:`/api/hi`, f: (request, response) => {
   response.sendJson({message: "👋", from:"pico"})
 }})
