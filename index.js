@@ -39,13 +39,13 @@ service.get({uri:`/`, f: (request, response) => {
         <section class="container">
           <div>
             <h1 class="title">
-              👋 🌍 Hello Malt
+              👋 🌍 Hello World
             </h1>
             <h2 class="subtitle">
               made with ❤️
             </h2>
             <h2 class="subtitle">
-              proudly hosted by Clever Cloud 💡☁️ Voxxed
+              proudly hosted by Clever Cloud 💡☁️
             </h2>            
           </div>
         </section>
