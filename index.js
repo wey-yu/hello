@@ -45,7 +45,7 @@ service.get({uri:`/`, f: (request, response) => {
               made with ❤️
             </h2>
             <h2 class="subtitle">
-              proudly hosted by Clever Cloud 💡☁️
+              proudly hosted on ...
             </h2>            
           </div>
         </section>
